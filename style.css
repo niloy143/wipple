@@ -1,0 +1,11 @@
+.like-container > .liked {
+	display: none;
+}
+
+.like-container:hover > .like {
+	display: none;
+}
+
+.like-container:hover > .liked {
+	display: block;
+}

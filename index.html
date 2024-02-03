@@ -7,6 +7,7 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 		<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<nav class="bg-white border-gray-200 dark:bg-gray-900 py-2">
@@ -271,6 +272,258 @@
 				<div class="bg-[#EDEDED] rounded-xl p-5 flex flex-col gap-1 items-center justify-center">
 					<img src="./assets/icons/gaming.png" alt="" />
 					<h4 class="text-center">Gaming</h4>
+				</div>
+			</div>
+		</section>
+
+		<section class="max-w-7xl mx-auto mb-16">
+			<div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+				<ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
+					<li class="me-2" role="presentation">
+						<button
+							class="inline-block p-4 border-b-2 rounded-t-lg"
+							id="new-arrival-tab"
+							data-tabs-target="#new-arrival"
+							type="button"
+							role="tab"
+							aria-controls="new-arrival"
+							aria-selected="false"
+						>
+							New Arrival
+						</button>
+					</li>
+					<li class="me-2" role="presentation">
+						<button
+							class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+							id="bestseller-tab"
+							data-tabs-target="#bestseller"
+							type="button"
+							role="tab"
+							aria-controls="bestseller"
+							aria-selected="false"
+						>
+							Bestseller
+						</button>
+					</li>
+					<li class="me-2" role="presentation">
+						<button
+							class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+							id="featured-products-tab"
+							data-tabs-target="#featured-products"
+							type="button"
+							role="tab"
+							aria-controls="featured-products"
+							aria-selected="false"
+						>
+							Featured Products
+						</button>
+					</li>
+				</ul>
+			</div>
+			<div id="default-tab-content">
+				<div class="hidden p-4 rounded-lg" id="new-arrival" role="tabpanel" aria-labelledby="new-arrival-tab">
+					<div class="flex gap-4 flex-wrap">
+						<div class="w-full max-w-[268px] bg-gray-200 rounded-lg shadow flex flex-col">
+							<div class="flex justify-end p-2">
+								<div class="like-container">
+									<img class="cursor-pointer like" src="./assets/icons/heart-outlined.png" alt="" />
+									<img class="cursor-pointer liked" src="./assets/icons/heart-filled.png" alt="" />
+								</div>
+							</div>
+							<a href="#">
+								<img class="p-8 pt-0 rounded-t-lg" src="./assets/tab-item-1.png" alt="product image" />
+							</a>
+							<div class="px-5 pb-5 flex-grow flex flex-col justify-between">
+								<a href="#">
+									<h5 class="text-lg pb-3 font-semibold tracking-tight text-gray-900">Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</h5>
+								</a>
+								<div class="flex items-center justify-between">
+									<span class="text-3xl font-bold text-gray-900">$900</span>
+									<a
+										href="#"
+										class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+										>Buy Now</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="w-full max-w-[268px] bg-gray-200 rounded-lg shadow flex flex-col">
+							<div class="flex justify-end p-2">
+								<div class="like-container">
+									<img class="cursor-pointer like" src="./assets/icons/heart-outlined.png" alt="" />
+									<img class="cursor-pointer liked" src="./assets/icons/heart-filled.png" alt="" />
+								</div>
+							</div>
+							<a href="#">
+								<img class="p-8 pt-0 rounded-t-lg" src="./assets/tab-item-2.png" alt="product image" />
+							</a>
+							<div class="px-5 pb-5 flex-grow flex flex-col justify-between">
+								<a href="#">
+									<h5 class="text-lg pb-3 font-semibold tracking-tight text-gray-900">Blackmagic Pocket Cinema Camera 6k</h5>
+								</a>
+								<div class="flex items-center justify-between">
+									<span class="text-3xl font-bold text-gray-900">$2535</span>
+									<a
+										href="#"
+										class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+										>Buy Now</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="w-full max-w-[268px] bg-gray-200 rounded-lg shadow flex flex-col">
+							<div class="flex justify-end p-2">
+								<div class="like-container">
+									<img class="cursor-pointer like" src="./assets/icons/heart-outlined.png" alt="" />
+									<img class="cursor-pointer liked" src="./assets/icons/heart-filled.png" alt="" />
+								</div>
+							</div>
+							<a href="#">
+								<img class="p-8 pt-0 rounded-t-lg" src="./assets/tab-item-3.png" alt="product image" />
+							</a>
+							<div class="px-5 pb-5 flex-grow flex flex-col justify-between">
+								<a href="#">
+									<h5 class="text-lg pb-3 font-semibold tracking-tight text-gray-900">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</h5>
+								</a>
+								<div class="flex items-center justify-between">
+									<span class="text-3xl font-bold text-gray-900">$399</span>
+									<a
+										href="#"
+										class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+										>Buy Now</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="w-full max-w-[268px] bg-gray-200 rounded-lg shadow flex flex-col">
+							<div class="flex justify-end p-2">
+								<div class="like-container">
+									<img class="cursor-pointer like" src="./assets/icons/heart-outlined.png" alt="" />
+									<img class="cursor-pointer liked" src="./assets/icons/heart-filled.png" alt="" />
+								</div>
+							</div>
+							<a href="#">
+								<img class="p-8 pt-0 rounded-t-lg" src="./assets/tab-item-4.png" alt="product image" />
+							</a>
+							<div class="px-5 pb-5 flex-grow flex flex-col justify-between">
+								<a href="#">
+									<h5 class="text-lg pb-3 font-semibold tracking-tight text-gray-900">AirPods Max Silver</h5>
+								</a>
+								<div class="flex items-center justify-between">
+									<span class="text-3xl font-bold text-gray-900">$549</span>
+									<a
+										href="#"
+										class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+										>Buy Now</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hidden p-4 rounded-lg" id="bestseller" role="tabpanel" aria-labelledby="bestseller-tab">
+					<div class="flex gap-4 flex-wrap">
+						<div class="w-full max-w-[268px] bg-gray-200 rounded-lg shadow flex flex-col">
+							<div class="flex justify-end p-2">
+								<div class="like-container">
+									<img class="cursor-pointer like" src="./assets/icons/heart-outlined.png" alt="" />
+									<img class="cursor-pointer liked" src="./assets/icons/heart-filled.png" alt="" />
+								</div>
+							</div>
+							<a href="#">
+								<img class="p-8 pt-0 rounded-t-lg" src="./assets/tab-item-2.png" alt="product image" />
+							</a>
+							<div class="px-5 pb-5 flex-grow flex flex-col justify-between">
+								<a href="#">
+									<h5 class="text-lg pb-3 font-semibold tracking-tight text-gray-900">Blackmagic Pocket Cinema Camera 6k</h5>
+								</a>
+								<div class="flex items-center justify-between">
+									<span class="text-3xl font-bold text-gray-900">$2535</span>
+									<a
+										href="#"
+										class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+										>Buy Now</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="w-full max-w-[268px] bg-gray-200 rounded-lg shadow flex flex-col">
+							<div class="flex justify-end p-2">
+								<div class="like-container">
+									<img class="cursor-pointer like" src="./assets/icons/heart-outlined.png" alt="" />
+									<img class="cursor-pointer liked" src="./assets/icons/heart-filled.png" alt="" />
+								</div>
+							</div>
+							<a href="#">
+								<img class="p-8 pt-0 rounded-t-lg" src="./assets/tab-item-3.png" alt="product image" />
+							</a>
+							<div class="px-5 pb-5 flex-grow flex flex-col justify-between">
+								<a href="#">
+									<h5 class="text-lg pb-3 font-semibold tracking-tight text-gray-900">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</h5>
+								</a>
+								<div class="flex items-center justify-between">
+									<span class="text-3xl font-bold text-gray-900">$399</span>
+									<a
+										href="#"
+										class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+										>Buy Now</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hidden p-4 rounded-lg" id="featured-products" role="tabpanel" aria-labelledby="featured-products-tab">
+					<div class="flex gap-4 flex-wrap">
+						<div class="w-full max-w-[268px] bg-gray-200 rounded-lg shadow flex flex-col">
+							<div class="flex justify-end p-2">
+								<div class="like-container">
+									<img class="cursor-pointer like" src="./assets/icons/heart-outlined.png" alt="" />
+									<img class="cursor-pointer liked" src="./assets/icons/heart-filled.png" alt="" />
+								</div>
+							</div>
+							<a href="#">
+								<img class="p-8 pt-0 rounded-t-lg" src="./assets/tab-item-3.png" alt="product image" />
+							</a>
+							<div class="px-5 pb-5 flex-grow flex flex-col justify-between">
+								<a href="#">
+									<h5 class="text-lg pb-3 font-semibold tracking-tight text-gray-900">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</h5>
+								</a>
+								<div class="flex items-center justify-between">
+									<span class="text-3xl font-bold text-gray-900">$399</span>
+									<a
+										href="#"
+										class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+										>Buy Now</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="w-full max-w-[268px] bg-gray-200 rounded-lg shadow flex flex-col">
+							<div class="flex justify-end p-2">
+								<div class="like-container">
+									<img class="cursor-pointer like" src="./assets/icons/heart-outlined.png" alt="" />
+									<img class="cursor-pointer liked" src="./assets/icons/heart-filled.png" alt="" />
+								</div>
+							</div>
+							<a href="#">
+								<img class="p-8 pt-0 rounded-t-lg" src="./assets/tab-item-4.png" alt="product image" />
+							</a>
+							<div class="px-5 pb-5 flex-grow flex flex-col justify-between">
+								<a href="#">
+									<h5 class="text-lg pb-3 font-semibold tracking-tight text-gray-900">AirPods Max Silver</h5>
+								</a>
+								<div class="flex items-center justify-between">
+									<span class="text-3xl font-bold text-gray-900">$549</span>
+									<a
+										href="#"
+										class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+										>Buy Now</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
